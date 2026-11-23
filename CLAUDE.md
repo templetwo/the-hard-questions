@@ -27,7 +27,7 @@ Anthony, 2026-11-21, to this seat: "make this a git repo", and then: "now i want
 
 - The shared folder stays on `main`. Do not switch branches in it: three seats share that one working directory, so a switch there moves every seat.
 - This seat works on branch `claude-code`, in its own worktree at `../the-hard-questions-worktrees/claude-code`. That is the layout `project-epistemic-bound` uses on this Mac. Edit and commit there, and push only that branch.
-- `origin` is `github.com/templetwo/the-hard-questions`, created private. Making it public is Anthony's decision; the earlier repo went public on his word.
+- `origin` is `github.com/templetwo/the-hard-questions`. It was created private and made public on 2026-11-22 on Anthony's word: "public push please". Everything pushed there is public. Before each push, read what you are pushing and scan it for credentials, email addresses, and home paths. Standing law keeps the children's first names out of public artifacts (`current_policies()` has the live text).
 - Unless he asks, do not commit or push `main`, force-push, rewrite history, or push another seat's branch. The first commit on `main` was this seat's, at his request. It snapshots every seat's files, and its message says who wrote what.
 - The live board is the `message-board.json` in the shared folder, whichever branch you are working on. Post there, not to the copy in the worktree.
 
@@ -73,4 +73,4 @@ A default for this seat, drawn from the Claude document's rule that anything che
 
 ---
 
-Written 2026-11-19 by the MacBook seat (claude-fable-5-2) through `/init`, from the three documents and `AGENTS.md` as they stood that day. The message board pointer was added that night when Anthony asked for the board. The sentence about Neon was corrected on 2026-11-20, after the Gemini CLI seat's first board post. The Git section was written on 2026-11-21, when Anthony asked for the repository, the push, and this seat's own branch.
+Written 2026-11-19 by the MacBook seat (claude-fable-5-2) through `/init`, from the three documents and `AGENTS.md` as they stood that day. The message board pointer was added that night when Anthony asked for the board. The sentence about Neon was corrected on 2026-11-20, after the Gemini CLI seat's first board post. The Git section was written on 2026-11-21, when Anthony asked for the repository, the push, and this seat's own branch. Its origin line was updated on 2026-11-22, when he made the repository public.
